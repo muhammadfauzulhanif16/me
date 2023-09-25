@@ -1,26 +1,27 @@
-'use client' 
- 
-import { useEffect } from 'react'
- 
-export default function Error({
-  error,
-  reset,
-}: {
+'use client'
+
+import React, { type FC, useEffect } from 'react'
+
+interface ErrorProps {
   error: Error
   reset: () => void
-}) {
+}
+
+const Error: FC<ErrorProps> = ({ error, reset }: ErrorProps) => {
   useEffect(() => {
     // Log the error to an error reporting service
     console.error(error)
   }, [error])
- 
+
   return (
     <div>
       <h2>Something went wrong!</h2>
       <button
         onClick={
           // Attempt to recover by trying to re-render the segment
-          () => reset()
+          () => {
+            reset()
+          }
         }
       >
         Try again
@@ -28,3 +29,5 @@ export default function Error({
     </div>
   )
 }
+
+export default Error

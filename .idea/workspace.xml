@@ -5,39 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7b4d04-ad33-4bb4-b405-8dc7d7512174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/me.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/docs/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/docs/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pricing/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pricing/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/providers.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/counter.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/icons.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/primitives.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/theme-switch.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/fonts.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/site.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/primitives.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/primitives.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/theme-switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/theme-switch.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695658807971</updated>
       <workItem from="1695658821413" duration="255000" />
-      <workItem from="1695659320225" duration="3001000" />
+      <workItem from="1695659320225" duration="3715000" />
     </task>
     <servers />
   </component>
