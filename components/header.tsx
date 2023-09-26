@@ -13,6 +13,14 @@ import { Button } from '@nextui-org/button'
 
 export const Header: FC = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
+  const menus = [
+    'Profile',
+    'Education',
+    'Experience',
+    'Achievement',
+    'Portfolio',
+    'Contact',
+  ]
 
   return (
     <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
@@ -27,21 +35,13 @@ export const Header: FC = (): JSX.Element => {
       </NavbarContent>
 
       <NavbarMenu className='justify-center items-center'>
-        <NavbarMenuItem>
-          <Button size='lg' variant='light'>
-            Profile
-          </Button>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Button size='lg' variant='light'>
-            Achievement
-          </Button>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Button size='lg' variant='light'>
-            Portfolio
-          </Button>
-        </NavbarMenuItem>
+        {menus.map((menu, id) => (
+          <NavbarMenuItem key={id}>
+            <Button size='lg' variant='light' className='text-4xl'>
+              {menu}
+            </Button>
+          </NavbarMenuItem>
+        ))}
       </NavbarMenu>
     </Navbar>
   )
