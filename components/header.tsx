@@ -10,6 +10,7 @@ import {
   NavbarMenuToggle,
 } from '@nextui-org/navbar'
 import { Button } from '@nextui-org/button'
+import Link from 'next/link'
 
 export const Header: FC = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
@@ -34,12 +35,14 @@ export const Header: FC = (): JSX.Element => {
         />
       </NavbarContent>
 
-      <NavbarMenu className='justify-center items-center'>
+      <NavbarMenu className='items-center'>
         {menus.map((menu, id) => (
           <NavbarMenuItem key={id}>
-            <Button size='lg' variant='light' className='text-4xl'>
-              {menu}
-            </Button>
+            <Link href={`/${menu.toLowerCase()}`}>
+              <Button size='lg' variant='light' className='text-4xl'>
+                {menu}
+              </Button>
+            </Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>

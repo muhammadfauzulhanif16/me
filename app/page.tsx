@@ -11,12 +11,9 @@ const Home = (): JSX.Element => {
       />
 
       <div>
-        <h1 className='text-8xl'>
-          Hi,{' '}
-          <span className='text-3xl'>
-            I am Muhammad Fauzul Hanif and am a Full-Stack Web Developer
-          </span>
-        </h1>
+        <p className='text-3xl'>
+          Hi, I am Muhammad Fauzul Hanif and am a Full-Stack Web Developer
+        </p>
       </div>
     </section>
   )
