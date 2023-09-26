@@ -11,6 +11,7 @@ import {
 } from '@nextui-org/navbar'
 import { Button } from '@nextui-org/button'
 import Link from 'next/link'
+import { ThemeSwitch } from '@/components/theme-switch'
 
 export const Header: FC = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
@@ -30,6 +31,7 @@ export const Header: FC = (): JSX.Element => {
           <p className='font-bold text-inherit'>Fauzul</p>
         </NavbarBrand>
 
+        <ThemeSwitch />
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
         />
@@ -38,7 +40,7 @@ export const Header: FC = (): JSX.Element => {
       <NavbarMenu className='items-center'>
         {menus.map((menu, id) => (
           <NavbarMenuItem key={id}>
-            <Link href={`/${menu.toLowerCase()}`}>
+            <Link href={`/${id === 0 ? '' : menu.toLowerCase()}`}>
               <Button size='lg' variant='light' className='text-4xl'>
                 {menu}
               </Button>

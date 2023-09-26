@@ -6,6 +6,10 @@ import { type SwitchProps, useSwitch } from '@nextui-org/switch'
 import { useTheme } from 'next-themes'
 import { useIsSSR } from '@react-aria/ssr'
 import clsx from 'clsx'
+import {
+  WeatherMoon,
+  WeatherSunny,
+} from '@emotion-icons/fluentui-system-regular'
 
 export interface ThemeSwitchProps {
   className?: string
@@ -68,13 +72,11 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
           ),
         })}
       >
-        {
-          !(isSelected ?? false) || isSSR
-            ? // <SunFilledIcon size={22} />
-              ''
-            : ''
-          // <MoonFilledIcon size={22} />
-        }
+        {!(isSelected ?? false) || isSSR ? (
+          <WeatherSunny size={24} />
+        ) : (
+          <WeatherMoon size={24} />
+        )}
       </div>
     </Component>
   )
